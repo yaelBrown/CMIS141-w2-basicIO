@@ -2,7 +2,7 @@
  * File: Homework1.java
  * Author: Yael Brown
  * Date: August 22, 2017
- * Purpose: Prompt for EMPLID, 3 quiz scores, age, current temperature in celcius.
+ * Purpose: Prompt for EMPLID, 3 quiz scores, age, current temperature in Celscius.
  */
 
 package com.cm141.w2;
@@ -17,8 +17,10 @@ import java.util.Scanner;
 /**
  * Homework1
  */
-public class Homework1 {
-	public static void main(String[] args) {
+public class Homework1 
+{
+	public static void main(String[] args) 
+	{
 		// Variables to hold values
 		int EMPLID = 0;
 		double quiz1 = 0.0;
@@ -30,7 +32,7 @@ public class Homework1 {
 		double temperatureC = 0.0;
 		double temperatureF = 0.0;
 		
-		// Definte input scanner
+		// Define input scanner
 		Scanner Scan = new Scanner(System.in);
 		
 		// Prompt user for EMPLID
@@ -50,7 +52,7 @@ public class Homework1 {
 			age = Scan.nextInt();
 			
 		// Prompt for current temperature
-		System.out.println("Enter the current Temperature in degrees Celsius: ");
+		System.out.println("Enter the current temperature in degrees Celsius: ");
 			temperatureC = Scan.nextDouble();
 			
 		// Calculate quiz averages
