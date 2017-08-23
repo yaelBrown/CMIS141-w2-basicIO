@@ -11,6 +11,7 @@ package com.cm141.w2;
 import java.io.IOException;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+import java.text.DecimalFormat;
 import java.util.Scanner;
 
 /**
@@ -52,8 +53,15 @@ public class Homework1 {
 		System.out.println("Enter the current Temperature in degrees Celsius: ");
 			temperatureC = Scan.nextDouble();
 			
+		// Calculate quiz averages
+		average = ((quiz1 + quiz2 + quiz3) / 3); 
+		average = Double.parseDouble(new DecimalFormat("##.##").format(average));
 		
-			
+		// Calculate age in years
+		ageInYears = (age / 12);
+		
+		// Calculate temperature in fahrenheit
+		temperatureF = ((temperatureC * 1.8) + 32);
 		
 		// Print outputs
 		System.out.println("*** Thank you***");
