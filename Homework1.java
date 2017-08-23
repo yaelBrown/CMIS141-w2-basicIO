@@ -5,8 +5,6 @@
  * Purpose: Prompt for EMPLID, 3 quiz scores, age, current temperature in Celscius.
  */
 
-package com.cm141.w2;
-
 // Import each required Java class
 import java.io.IOException;
 import java.io.BufferedReader;
